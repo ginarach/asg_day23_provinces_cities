@@ -1,0 +1,144 @@
+{
+	"info": {
+		"_postman_id": "e6704bc3-b037-464e-8bc8-4e5b4e497b65",
+		"name": "fwd10_provinces_cities",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24866340"
+	},
+	"item": [
+		{
+			"name": "Get Province",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/province",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"province"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Province ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/province/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"province",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Province",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\": \"Nanggroe Aceh Darussalam\"\r\n    },\r\n    {\r\n        \"name\": \"Sumatra Utara\"\r\n    },\r\n    {\r\n        \"name\": \"Sumatra Selatan\"\r\n    },\r\n    {\r\n        \"name\": \"Sumatra Barat\"\r\n    },\r\n    {\r\n        \"name\": \"Bengkulu\"\r\n    },\r\n    {\r\n        \"name\": \"Riau\"\r\n    },\r\n    {\r\n        \"name\": \"Kepulauan Riau\"\r\n    },\r\n    {\r\n        \"name\": \"Jambi\"\r\n    },\r\n    {\r\n        \"name\": \"Lampung\"\r\n    },\r\n    {\r\n        \"name\": \"Bangka Belitung\"\r\n    },\r\n    {\r\n        \"name\": \"Banten\"\r\n    },\r\n    {\r\n        \"name\": \"DKI Jakarta\"\r\n    },\r\n    {\r\n        \"name\": \"Jawa Barat\"\r\n    },\r\n    {\r\n        \"name\": \"Jawa Tengah\"\r\n    },\r\n    {\r\n        \"name\": \"DI Yogyakarta\"\r\n    },\r\n    {\r\n        \"name\": \"Jawa Timur\"\r\n    },\r\n    {\r\n        \"name\": \"Kalimantan Timur\"\r\n    },\r\n    {\r\n        \"name\": \"Kalimantan Barat\"\r\n    },\r\n    {\r\n        \"name\": \"Kalimantan Tengah\"\r\n    },\r\n    {\r\n        \"name\": \"Kalimantan Selatan\"\r\n    },\r\n    {\r\n        \"name\": \"Kalimantan Utara\"\r\n    },\r\n    {\r\n        \"name\": \"Bali\"\r\n    },\r\n    {\r\n        \"name\": \"Nusa Tenggara Timur\"\r\n    },\r\n    {\r\n        \"name\": \"Nusa Tenggara Barat\"\r\n    },\r\n    {\r\n        \"name\": \"Gorontalo\"\r\n    },\r\n    {\r\n        \"name\": \"Sulawesi Barat\"\r\n    },\r\n    {\r\n        \"name\": \"Sulawesi Tengah\"\r\n    },\r\n    {\r\n        \"name\": \"Sulawesi Utara\"\r\n    },\r\n    {\r\n        \"name\": \"Sulawesi Tenggara\"\r\n    },\r\n    {\r\n        \"name\": \"Sulawesi Selatan\"\r\n    },\r\n    {\r\n        \"name\": \"Maluku Utara\"\r\n    },\r\n    {\r\n        \"name\": \"Maluku\"\r\n    },\r\n    {\r\n        \"name\": \"Papua Barat\"\r\n    },\r\n    {\r\n        \"name\": \"Papua\"\r\n    },\r\n    {\r\n        \"name\": \"Papua Selatan\"\r\n    },\r\n    {\r\n        \"name\": \"Papua Tengah\"\r\n    },\r\n    {\r\n        \"name\": \"Papua Pegunungan\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/province",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"province"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get City",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/city",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"city"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get City ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/city/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"city",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post City",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\": \"Banda Aceh\"\r\n    },\r\n    {\r\n        \"name\": \"Medan\"\r\n    },\r\n    {\r\n        \"name\": \"Palembang\"\r\n    },\r\n    {\r\n        \"name\": \"Padang\"\r\n    },\r\n    {\r\n        \"name\": \"Bengkulu\"\r\n    },\r\n    {\r\n        \"name\": \"Pekanbaru\"\r\n    },\r\n    {\r\n        \"name\": \"Tanjung Pinang\"\r\n    },\r\n    {\r\n        \"name\": \"Jambi\"\r\n    },\r\n    {\r\n        \"name\": \"Bandar Lampung\"\r\n    },\r\n    {\r\n        \"name\": \"Pangkal Pinang\"\r\n    },\r\n    {\r\n        \"name\": \"Serang\"\r\n    },\r\n    {\r\n        \"name\": \"Jakarta\"\r\n    },\r\n    {\r\n        \"name\": \"Bandung\"\r\n    },\r\n    {\r\n        \"name\": \"Semarang\"\r\n    },\r\n    {\r\n        \"name\": \"Yogyakarta\"\r\n    },\r\n    {\r\n        \"name\": \"Surabaya\"\r\n    },\r\n    {\r\n        \"name\": \"Samarinda\"\r\n    },\r\n    {\r\n        \"name\": \"Pontianak\"\r\n    },\r\n    {\r\n        \"name\": \"Palangka Raya\"\r\n    },\r\n    {\r\n        \"name\": \"Banjarbaru\"\r\n    },\r\n    {\r\n        \"name\": \"Tanjung Selor\"\r\n    },\r\n    {\r\n        \"name\": \"Denpasar\"\r\n    },\r\n    {\r\n        \"name\": \"Kupang\"\r\n    },\r\n    {\r\n        \"name\": \"Mataram\"\r\n    },\r\n    {\r\n        \"name\": \"Gorontalo\"\r\n    },\r\n    {\r\n        \"name\": \"Mamuju\"\r\n    },\r\n    {\r\n        \"name\": \"Palu\"\r\n    },\r\n    {\r\n        \"name\": \"Manado\"\r\n    },\r\n    {\r\n        \"name\": \"Kendari\"\r\n    },\r\n    {\r\n        \"name\": \"Makassar\"\r\n    },\r\n    {\r\n        \"name\": \"Sofifi\"\r\n    },\r\n    {\r\n        \"name\": \"Ambon\"\r\n    },\r\n    {\r\n        \"name\": \"Manokwari\"\r\n    },\r\n    {\r\n        \"name\": \"Jayapura\"\r\n    },\r\n    {\r\n        \"name\": \"Kabupaten Merauke\"\r\n    },\r\n    {\r\n        \"name\": \"Kabupaten Nabire\"\r\n    },\r\n    {\r\n        \"name\": \"Kabupaten Jayawijaya\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/city",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"city"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
